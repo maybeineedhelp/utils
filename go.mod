@@ -1,4 +1,4 @@
-module utils
+module github.com/maybeineedhelp/utils
 
 go 1.17
 
