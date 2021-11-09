@@ -2,7 +2,8 @@ package jsonutils_test
 
 import (
 	"testing"
-	jsonutils "utils/pkg/json"
+
+	jsonutils "github.com/maybeineedhelp/utils/pkg/json"
 
 	"github.com/go-playground/assert"
 )

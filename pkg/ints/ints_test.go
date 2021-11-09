@@ -2,7 +2,8 @@ package intsutils_test
 
 import (
 	"testing"
-	intsutils "utils/pkg/ints"
+
+	intsutils "github.com/maybeineedhelp/utils/pkg/ints"
 
 	"github.com/go-playground/assert/v2"
 )

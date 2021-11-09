@@ -4,3 +4,4 @@ github.com/go-playground/assert
 # github.com/go-playground/assert/v2 v2.0.1
 ## explicit; go 1.13
 github.com/go-playground/assert/v2
+# github.com/maybeineedhelp/utils => ./

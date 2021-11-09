@@ -2,7 +2,8 @@ package strsutils_test
 
 import (
 	"testing"
-	strsutils "utils/pkg/strs"
+
+	strsutils "github.com/maybeineedhelp/utils/pkg/strs"
 
 	"github.com/go-playground/assert/v2"
 )

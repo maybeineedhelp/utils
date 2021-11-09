@@ -2,8 +2,9 @@ package fileutils_test
 
 import (
 	"testing"
-	fileutils "utils/pkg/file"
-	jsonutils "utils/pkg/json"
+
+	fileutils "github.com/maybeineedhelp/utils/pkg/file"
+	jsonutils "github.com/maybeineedhelp/utils/pkg/json"
 
 	"github.com/go-playground/assert"
 )
