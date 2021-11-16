@@ -29,3 +29,8 @@ func TestCompareStrs(t *testing.T) {
 	assert.Equal(t, arr2self, []string{"b"})
 	assert.Equal(t, both, []string{"a", "c"})
 }
+
+func TestReverse(t *testing.T) {
+	assert.Equal(t, strsutils.Reverse([]string{"a", "b", "c"}), []string{"c", "b", "a"})
+	assert.Equal(t, strsutils.Reverse([]string{"a", "b", "c", "d"}), []string{"d", "c", "b", "a"})
+}

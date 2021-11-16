@@ -28,3 +28,10 @@ func CompareStrs(a []string, b []string) (aself []string, bself []string, both [
 	}
 	return
 }
+
+func Reverse(arr []string) (new []string) {
+	for i := len(arr) - 1; i >= 0; i-- {
+		new = append(new, arr[i])
+	}
+	return new
+}
