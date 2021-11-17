@@ -39,3 +39,8 @@ func TestHasElementInCommon(t *testing.T) {
 	assert.Equal(t, strsutils.HasElementInCommon([]string{"a", "b", "c"}, []string{"v", "c"}), true)
 	assert.Equal(t, strsutils.HasElementInCommon([]string{"a", "d"}, []string{"v", "c"}), false)
 }
+
+func TestCountElementInCommon(t *testing.T) {
+	assert.Equal(t, strsutils.CountElementInCommon([]string{"a", "b", "c"}, []string{"v", "c", "c"}), 2)
+	assert.Equal(t, strsutils.CountElementInCommon([]string{"a", "d"}, []string{"v", "c"}), 0)
+}

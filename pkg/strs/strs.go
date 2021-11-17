@@ -47,3 +47,14 @@ func HasElementInCommon(array1 []string, array2 []string) bool {
 	}
 	return false
 }
+
+func CountElementInCommon(array1 []string, array2 []string) (count int) {
+	for _, s1 := range array1 {
+		for _, s2 := range array2 {
+			if s1 == s2 {
+				count++
+			}
+		}
+	}
+	return count
+}
