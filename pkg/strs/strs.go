@@ -35,3 +35,15 @@ func Reverse(arr []string) (new []string) {
 	}
 	return new
 }
+
+// HasElementInCommon returns true if there are common member in two arrays
+func HasElementInCommon(array1 []string, array2 []string) bool {
+	for _, s1 := range array1 {
+		for _, s2 := range array2 {
+			if s1 == s2 {
+				return true
+			}
+		}
+	}
+	return false
+}

@@ -34,3 +34,8 @@ func TestReverse(t *testing.T) {
 	assert.Equal(t, strsutils.Reverse([]string{"a", "b", "c"}), []string{"c", "b", "a"})
 	assert.Equal(t, strsutils.Reverse([]string{"a", "b", "c", "d"}), []string{"d", "c", "b", "a"})
 }
+
+func TestHasElementInCommon(t *testing.T) {
+	assert.Equal(t, strsutils.HasElementInCommon([]string{"a", "b", "c"}, []string{"v", "c"}), true)
+	assert.Equal(t, strsutils.HasElementInCommon([]string{"a", "d"}, []string{"v", "c"}), false)
+}
